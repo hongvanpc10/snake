@@ -1,0 +1,43 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background: rgb(74 117 44);
+}
+
+.top {
+	height: 64px;
+	display: flex;
+	align-items: center;
+	padding: 0 24px;
+}
+
+.main {
+	padding: 16px;
+	background: rgb(86 138 52);
+}
+
+#game-area {
+	background: #aad750;
+}
+
+.scores {
+	display: flex;
+	align-items: center;
+	margin-right: 48px;
+}
+
+.scores-value {
+	font-size: 24px;
+	color: white;
+	font-weight: 500;
+	margin-left: 8px;
+}
