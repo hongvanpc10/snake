@@ -1,7 +1,7 @@
 const SIZE = 40
 const COLS = Math.floor((window.innerWidth - 16 * 2) / SIZE)
 const ROWS = Math.floor((window.innerHeight - 16 * 2 - 72) / SIZE)
-const FPS = 8
+const FPS = 5
 
 const APPLE = 'assets/apple.png'
 const BODY_BL = 'assets/body_bl.png'
